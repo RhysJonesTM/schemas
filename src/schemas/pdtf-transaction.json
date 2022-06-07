@@ -120,6 +120,20 @@
                 "title": "Title Number",
                 "type": "string"
               },
+              "tenure": {
+                "RDSRef": "",
+                "title": "Tenure",
+                "description":  "Tenure (property ownership) of the title",
+                "type": "string",
+                "enum": [
+                  "Freehold",
+                  "Leasehold",
+                  "Commonhold",
+                  "Flying Freehold",
+                  "Unknown",
+                  "Other"
+                ]
+              },
               "titleExtents": {
                 "RDSRef": "",
                 "title": "Title Extents",
